@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhanu Prakash Samala | CFD Engineer & Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <div class="profile-image">
+                    <!-- Replace with your image -->
+                    <img src="images/profile.jpg" alt="Bhanu Prakash Samala">
+                </div>
+                <div class="profile-content">
+                    <h1>Bhanu Prakash Samala</h1>
+                    <h2>CFD Developer & Engineer</h2>
+                    <p>Specializing in advanced numerical methods, high-fidelity engineering simulations, and ML-enhanced CFD</p>
+                    <div class="profile-links">
+                        <a href="mailto:bhanuprakash.bits@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                        <a href="https://github.com/yourusername"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="assets/CV_Bhanu_Prakash_Samala.pdf"><i class="fas fa-file-pdf"></i> CV</a>
+                        <a href="https://scholar.google.com/citations?user=yourid"><i class="fas fa-graduation-cap"></i> Publications</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="container section">
+        <h2>About Me</h2>
+        <div class="section-content">
+            <p>I am a Computational Fluid Dynamics (CFD) developer and engineer with 8+ years of industry and academic experience. My work focuses on implementing advanced numerical methods, end-to-end simulation workflows, and parallel computing solutions for high-performance engineering applications.</p>
+            
+            <p>Currently, I'm completing my Ph.D. in Aerospace Science and Technology at UPC-Barcelona, specializing in active aerodynamics flow control and high-fidelity CFD, while working as a Project Engineer at Applus+ IDIADA.</p>
+
+            <div class="skills">
+                <div class="skill-category">
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Programming: C++, Python, Fortran</li>
+                        <li>CFD Solvers: OpenFOAM, STARCCM+</li>
+                        <li>HPC Tools: Linux, Git, MPI, OpenMP, Paraview</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Numerical Methods</h3>
+                    <ul>
+                        <li>Finite Volume Method</li>
+                        <li>Vortex Particle Method</li>
+                        <li>Scale Resolving Simulations (DNS/LES)</li>
+                        <li>Turbulence Modeling (RANS)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="research" class="container section">
+        <h2>Research Focus</h2>
+        <div class="research-areas">
+            <div class="research-item">
+                <h3>Vortex Particle Method Development</h3>
+                <div class="research-content">
+                    <div class="research-image">
+                        <img src="images/vortex-method.jpg" alt="Vortex Particle Method Visualization">
+                    </div>
+                    <div class="research-description">
+                        <p>Led the development of a vortex particle method code for automotive aerodynamics. Implemented efficient data structures and hybrid OpenMP/MPI parallelization.</p>
+                        <p>Key achievements:</p>
+                        <ul>
+                            <li>Enhanced boundary layer resolution with second-order accurate finite volume solver</li>
+                            <li>Validated for canonical flows and industry-relevant geometries</li>
+                            <li>Created detailed technology roadmap to advance code from TRL 3 to 6</li>
+                        </ul>
+                        <a href="research/vortex-method.html" class="button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-item">
+                <h3>Physics-Informed Machine Learning for CFD</h3>
+                <div class="research-content">
+                    <div class="research-image">
+                        <img src="images/ml-cfd.jpg" alt="ML-Enhanced CFD">
+                    </div>
+                    <div class="research-description">
+                        <p>Led technical development in EU H2020 funded UPSCALE project related to implementation of physics-informed ML for turbulence modeling. Validated end-to-end workflows by coupling with OpenFOAM RANS solvers.</p>
+                        <p>Developed real-time aerodynamic optimization framework using ML-enhanced CFD, reducing design evaluation time from 6-12 hours to 10 seconds, while maintaining solution accuracy within 2-5%.</p>
+                        <a href="research/ml-cfd.html" class="button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="research-item">
+                <h3>Active Flow Control Technologies</h3>
+                <div class="research-content">
+                    <div class="research-image">
+                        <img src="images/flow-control.jpg" alt="Flow Control Simulation">
+                    </div>
+                    <div class="research-description">
+                        <p>Developed novel open-source CFD framework in OpenFOAM for modeling synthetic jet actuators and flow control systems, enabling rapid evaluation of conceptual designs.</p>
+                        <p>Conducted large-scale high-fidelity transient simulations of steady and periodic flow control jets on HPC infrastructure, analyzing complex flow physics and actuator-flow interactions.</p>
+                        <a href="research/flow-control.html" class="button">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container section">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project1.jpg" alt="Vortex Method Validation">
+                </div>
+                <h3>Vortex Method Validation</h3>
+                <p>Comprehensive validation of vortex particle method against canonical test cases and experimental data.</p>
+                <div class="project-links">
+                    <a href="projects/vortex-validation.html">Details</a>
+                    <a href="https://github.com/yourusername/vortex-validation">Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project2.jpg" alt="ML-CFD Integration">
+                </div>
+                <h3>ML-CFD Integration</h3>
+                <p>Python framework for coupling machine learning models with OpenFOAM for turbulence prediction.</p>
+                <div class="project-links">
+                    <a href="projects/ml-cfd-integration.html">Details</a>
+                    <a href="https://github.com/yourusername/ml-cfd-integration">Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project3.jpg" alt="Synthetic Jet Actuator">
+                </div>
+                <h3>Synthetic Jet Actuator</h3>
+                <p>OpenFOAM implementation of synthetic jet actuators for active flow control applications.</p>
+                <div class="project-links">
+                    <a href="projects/synthetic-jet.html">Details</a>
+                    <a href="https://github.com/yourusername/synthetic-jet">Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/project4.jpg" alt="Parallel CFD Solver">
+                </div>
+                <h3>Parallel CFD Solver</h3>
+                <p>High-performance implementation of finite volume solver with hybrid OpenMP/MPI parallelization.</p>
+                <div class="project-links">
+                    <a href="projects/parallel-cfd.html">Details</a>
+                    <a href="https://github.com/yourusername/parallel-cfd">Code <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="container section">
+        <h2>Publications</h2>
+        <div class="publications-list">
+            <div class="publication">
+                <h3>Journal Articles</h3>
+                <ul>
+                    <li>
+                        <div class="publication-title">Title of your journal article</div>
+                        <div class="publication-authors">Samala, B.P., Bergada, J.M., Mellibovsky, F.</div>
+                        <div class="publication-journal">Journal Name, Volume(Issue), Pages, Year</div>
+                        <div class="publication-links">
+                            <a href="#">DOI</a>
+                            <a href="#">PDF</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="publication-title">Title of upcoming journal article (to be submitted)</div>
+                        <div class="publication-authors">Samala, B.P., et al.</div>
+                        <div class="publication-journal">In preparation</div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="publication">
+                <h3>Conference Papers</h3>
+                <ul>
+                    <li>
+                        <div class="publication-title">Title of conference paper 1</div>
+                        <div class="publication-authors">Samala, B.P., et al.</div>
+                        <div class="publication-journal">Conference Name, Location, Year</div>
+                        <div class="publication-links">
+                            <a href="#">PDF</a>
+                            <a href="#">Slides</a>
+                        </div>
+                    </li>
+                    <!-- Add more conference papers -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p><a href="mailto:bhanuprakash.bits@gmail.com">bhanuprakash.bits@gmail.com</a></p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+34-624893211</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Barcelona, Spain</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Bhanu Prakash Samala. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
